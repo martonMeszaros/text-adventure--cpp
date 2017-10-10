@@ -5,7 +5,7 @@
 
 using namespace std;
 
-/** An area instance should only contain a single room description.
+/** A RoomDescription instance should only contain a single room description.
  *  This is used so all static data could be loaded when initializing the game.
  *  @param descLong  : displayed when visiting room for first time.
  *  @param descShort : displayed when room has already been visited.
