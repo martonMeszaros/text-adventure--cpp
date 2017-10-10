@@ -2,7 +2,7 @@
 #define CPP_2ND_TW_MIGHTY_TEXT_ADVENTURE_GAME_H
 
 #include <vector>
-#include "../hpp/Area.hpp"
+#include "../hpp/RoomDescription.hpp"
 
 using namespace std;
 
@@ -12,7 +12,7 @@ public:
     void run();
 
 private:
-    vector<Area> areas; // areas has only non-changeable information
+    vector<RoomDescription> areas; // areas has only non-changeable information
 
     void loadAreas();
     bool step();
