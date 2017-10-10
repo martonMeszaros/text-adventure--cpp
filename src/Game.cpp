@@ -3,18 +3,28 @@
 
 void Game::init()
 {
-    loadAreas();
+    loadRoomDescriptions();
+    loadItemDescriptions();
+    loadItemNames();
+    loadItemWeights();
 }
 
-void Game::loadAreas()
+void Game::loadRoomDescriptions()
 {
-    areas.emplace_back("start room");
-    areas.emplace_back("room 1");
-    areas.emplace_back("room 2");
-    areas.emplace_back("room 3");
-    areas.emplace_back("room 4");
-    areas.emplace_back("room 5");
-    areas.emplace_back("room 6");
+//    roomDescriptions.emplace_back("long description", "short description");
+//    roomDescriptions.emplace_back("long description");
+}
+
+void Game::loadItemDescriptions() {
+//    itemDescriptions.emplace_back("item description");
+}
+
+void Game::loadItemNames() {
+//    itemNames.emplace_back("item name");
+}
+
+void Game::loadItemWeights() {
+//    itemWeights.emplace_back(0);  // item weight
 }
 
 void Game::run()
