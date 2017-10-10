@@ -1,0 +1,18 @@
+//
+// Created by meszi on 2017.10.10..
+//
+
+#ifndef CPP_2ND_TW_MIGHTY_TEXT_ADVENTURE_INPUTTYPE_H
+#define CPP_2ND_TW_MIGHTY_TEXT_ADVENTURE_INPUTTYPE_H
+
+enum InputType {
+    GO_NORTH,
+    GO_EAST,
+    GO_SOUTH,
+    GO_WEST,
+    HELP,
+    INVALID,
+    USE_ITEM
+};
+
+#endif //CPP_2ND_TW_MIGHTY_TEXT_ADVENTURE_INPUTTYPE_H

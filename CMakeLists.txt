@@ -3,5 +3,5 @@ project(cpp_2nd_tw_mighty_text_adventure)
 
 set(CMAKE_CXX_STANDARD 11)
 
-set(SOURCE_FILES main.cpp hpp/RoomDescription.hpp src/Game.cpp headers/Game.h hpp/ItemName.hpp hpp/ItemDescription.hpp hpp/ItemWeight.hpp)
+set(SOURCE_FILES main.cpp hpp/RoomDescription.hpp src/Game.cpp headers/Game.h hpp/ItemName.hpp hpp/ItemDescription.hpp hpp/ItemWeight.hpp headers/InputType.h)
 add_executable(cpp_2nd_tw_mighty_text_adventure ${SOURCE_FILES})
